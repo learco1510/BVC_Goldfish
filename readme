@@ -4,3 +4,10 @@ Each data file correspond to a specific figure and opened in MATLAB.
 
 Each .mat file is a structure correpond to different panels in the manuscript. 
 The structure indices and corresponding panels are fully detailed in the file "data indices.xls"
+
+e.g., to get the heatmap data shown in Figure 2 panel B use the foloowing steps:
+1. open Matlab
+2. navigate to the files directory
+3. run the following commands:
+    load('Fig2_data.mat');
+    Heatmap_data=Fig2_data{1,2}{1,1};
