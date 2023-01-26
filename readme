@@ -1,1 +1,6 @@
-This folder will soon include all data recorded by Cohen et. al 2022 and submitted to PLOS Biology 
+This folder includes all data presented in the paper "Boundary Vector Cells in the Goldfish Central Telencehpalon Encode Spatial Information" by Cohen et. al 2023 (PLOS Biology) 
+
+Each data file correspond to a specific figure and opened in MATLAB.
+
+Each .mat file is a structure correpond to different panels in the manuscript. 
+The structure indices and corresponding panels are fully detailed in the file "data indices.xls"
